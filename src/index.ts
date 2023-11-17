@@ -1,8 +1,12 @@
 import app from './server'
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 app.listen(3001, ()=>{
   console.log("hello on port 3001")
 })
+
+
 // const http = require('http')
 //
 // const server = http.createServer(async (req,res) => {
